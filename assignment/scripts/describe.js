@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// name variable set to Dane
+// If name is exactly 'Mary' console logs Hi Mary
+// console logs How do you do?
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// secret variable defined, code set to 123
+// if code is exactly 124 secret is now a string 'super' code is now 246
+// if code is greater than 250 secret is now string duper. code is not greater than 250 so 
+// console logs super 
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// is student set to true, age set to 34, zip set to 55407
+// if isstudent is true and zip is greater than 80000 console will log Youre a student on the west coast. if not
+// if isstudent is false or age less than 30 console logs what are you hobbies. if not, if is student is true console will log welcome to Prime! 
+// if nothing console will log how about the weather? Console ends up logging 'Welcome to Prime!'
 
 //CODE
 /*
@@ -125,6 +125,11 @@ if (number >= 2) {
 
 
 
+
+// #4 CORRECTIONS
+// color one and two need the values swapped.
+// mix === true so colorTwo also needs to be updated to purple as well
+
 //4. We start with three variables -- colorOne is set to 'blue' and 
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
@@ -139,6 +144,14 @@ if (mix === true) {
 }
 */
 
+
+
+
+// #5 CORRECTIONS
+//  time is set as a constant and needs to instead be definted as a variable. 
+//  the conditional for time needs to be switched to the identifier '&&'
+//  there is no else statement for the conditional so console currently will log nothing, when corrections above are made console will log 'throw away the food!'
+
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
@@ -151,6 +164,14 @@ if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
+
+
+
+
+// #6 CORRECTIONS
+// minAge needs to be defined as a variable instead. 
+// syntactically the logie check on age being greater than minAge is reversed but still correct.
+// console currently does not log 'enter' singe minAge is equal to age. swapping the string values of the console logs will correct this.
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
